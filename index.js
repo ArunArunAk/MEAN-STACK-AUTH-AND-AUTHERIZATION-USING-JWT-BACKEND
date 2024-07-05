@@ -12,9 +12,9 @@ const bodyParser = require('body-parser');
 
 const app = express();
 const port = 4800;
-const password = encodeURIComponent("Arun123#");
-// const mongoDbUrl = `mongodb+srv://arunarun2gs:${password}@cluster0.cgnglhb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`;
-const mongoDbUrl = `mongodb+srv://arunarun2gs:${password}@cluster0.cgnglhb.mongodb.net/Authservices?retryWrites=true&w=majority&appName=Cluster0`;
+const password = encodeURIComponent("A2431k672286831268192lkjnlkffnvakhiua412das2531erae51762123#");
+// const mongoDbUrl = `mongodb+srv://aru112342225nakdasarun223gs:${password}@cluster0.cgnglhb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`;
+const mongoDbUrl = `mongodb+srv://ar111u112345nakda33sarrrutytn4223gs:${password}@cluster0.cgnglhb.mongodb.net/Authservices?retryWrites=true&w=majority&appName=Cluster0`;
 
 app.use(cors()) 
 
